@@ -1,0 +1,16 @@
+.carouselGallery {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  gap: 10px;
+}
+.carouselGallery img {
+  cursor: pointer;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 2px;
+}
+.carouselGallery img.selected {
+  outline: 3px solid red;
+}/*# sourceMappingURL=style.css.map */
