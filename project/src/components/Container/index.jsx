@@ -22,7 +22,7 @@ const images = [
     return (
       <div className="container">
         <Carousel images={images} currentImageIndex={currentImageIndex}  />
-        <CarouselGallery images={images} onThumbnailClick={handleThumbnailClick} />
+        <CarouselGallery images={images} onThumbnailClick={handleThumbnailClick} currentImageIndex={currentImageIndex} />
       </div>
     );
   }
