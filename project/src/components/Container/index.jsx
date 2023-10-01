@@ -21,8 +21,8 @@ const images = [
   
     return (
       <div className="container">
-        <Carousel images={images} currentImageIndex={currentImageIndex}  />
-        <CarouselGallery images={images} onThumbnailClick={handleThumbnailClick} currentImageIndex={currentImageIndex} />
+        <Carousel images={images} currentImageIndex={currentImageIndex} setCurrentImageIndex={setCurrentImageIndex}/>
+        <CarouselGallery images={images} onThumbnailClick={handleThumbnailClick} currentImageIndex={currentImageIndex}/>
       </div>
     );
   }

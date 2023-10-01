@@ -8,7 +8,7 @@ function CarouselGallery({ images, onThumbnailClick, currentImageIndex }) {
           key={index}
           src={image}
           alt={`Thumbnail ${index}`}
-          onClick={() => onThumbnailClick(index)}
+          onClick={() =>onThumbnailClick(index)}
         />
       ))}
     </div>
