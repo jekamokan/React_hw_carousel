@@ -13,8 +13,6 @@ const images = [
 
   function Container() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  
-
     const handleThumbnailClick = (index) => setCurrentImageIndex(index);
   
     return (
